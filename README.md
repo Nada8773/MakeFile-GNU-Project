@@ -1,30 +1,6 @@
 
 ## Make Tool
 
-#### Error Parser
-- make the compiler generate warnings on all operations By Writing regular expressions
-  for parse errors and parse warnings .
-  
-  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/WarningError3.PNG)
-  
-  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/WarningError2.PNG)
-  
-#### ProgressBar
-- Output from CMD
-
-  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/m2.PNG)
-
-- Output from eclipse
-  - The 1st capturing group is the progress bar
-  - The 2nd capturing group is the progress percentage written after the progress bar
-  
-  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/m4.PNG) 
-
-- Configurations 
-
-  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/bar.PNG) 
-
-
 ## Requirement
   1.  Implement make tool .
   2.  Integrating the make file with Eclipse.
@@ -50,3 +26,33 @@
        - Construct a variable containing all the files that the make file generates (i.e object files, dependency files, final application)
        - Call progress.py each time it generates a file with input argument “the number of all the files that the make file generates”
        - Reset the progress written in progress.txt (by writing 0) whenever you make clean or make all
+
+### Integrate Make File with eclipse
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/in1.PNG)
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/in2.PNG)
+
+
+#### Error Parser
+- make the compiler generate warnings on all operations By Writing regular expressions
+  for parse errors and parse warnings .
+  
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/WarningError3.PNG)
+  
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/WarningError2.PNG)
+  
+#### ProgressBar
+- Output from CMD
+
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/m2.PNG)
+
+- Output from eclipse
+  - The 1st capturing group is the progress bar
+  - The 2nd capturing group is the progress percentage written after the progress bar
+  
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/m4.PNG) 
+
+- Configurations 
+
+  ![Image](https://raw.githubusercontent.com/Nada8773/Make-GNU-Project/master/Image/bar.PNG) 
+
+
